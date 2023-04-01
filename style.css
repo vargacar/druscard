@@ -1,0 +1,71 @@
+html,
+body
+ {
+    height: 100%;
+}
+
+
+body {
+    background-color: grey;
+    font: 16px/1  'EB Garamond', 'arial', sans-serif;
+}
+
+
+.text-block {
+    color: black;
+}
+
+#site-wrapper {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#card {
+    background-image: url(dynamic-style.png);
+    padding: 1em;
+    width: 520px;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 2em auto;
+    border-radius: .2cm;
+    -webkit-box-shadow: 6px 11px 39px -4px rgba(0,0,0,0.29);
+-moz-box-shadow: 6px 11px 39px -4px rgba(0,0,0,0.29);
+box-shadow: 6px 11px 39px -4px rgba(0,0,0,0.29);
+}
+
+
+header {
+    font-size: .8rem;
+}
+
+.no-style {
+    list-style: none;
+    padding-left: 0;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightseagreen
+}
+
+.image-block,
+.text-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.image-block {
+    margin-right: 1em;
+
+}
+
+.image-block img {
+    width: 200px
+}
